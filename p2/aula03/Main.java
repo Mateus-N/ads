@@ -18,10 +18,11 @@ public class Main {
                 series[i].setNome(input.nextLine());
 
                 System.out.print("Gênero: ");
-                series[i].setGenero(input.nextLine());;
+                series[i].setGenero(input.nextLine());
 
                 System.out.print("Temporadas: ");
-                series[i].setTemporadas(input.nextInt());;
+                series[i].setTemporadas(input.nextInt());
+                input.nextLine();
             }
 
             System.out.println("As séries adicionadas foram:");

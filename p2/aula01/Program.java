@@ -12,14 +12,8 @@ public class Program{
             System.out.println("Faltam " + falta + " anos para vocês ficar de maior");
         }
 
-        //for (int i = 1; i <= 10; i++){
-            //System.out.println("5 x " + i + " = " + 5 * i);
-        //}
-
-        int i = 1;
-        while (i <= 10){
+        for (int i = 1; i <= 10; i++){
             System.out.println("5 x " + i + " = " + 5 * i);
-            i++;
         }
     }
 }
