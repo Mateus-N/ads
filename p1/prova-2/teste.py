@@ -3,7 +3,7 @@ def removeStringDaLista(lista):
     while i < len(lista):
         # ver se o tipo é str e remover da lista
         if type(lista[i]) == str:
-            lista.pop(i) 
+            lista.pop(i)
         else:
             i += 1
 
