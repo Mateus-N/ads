@@ -5,7 +5,7 @@ totalPago = 0
 for i in range ( 0, 2 ) :
 
   # Ler informações do teclado e armazenar numa lista
-  produto = str ( input ()).split()
+  produto = input ().split()
 
   # Atribuir às variáveis o valor e a quantidade de peças
   quantidade = int ( produto[1])
