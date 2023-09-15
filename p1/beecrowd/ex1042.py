@@ -7,11 +7,11 @@ valorB = int (valorB)
 valorC = int (valorC)
 
 # Verificar se o valor A é o maior
-if valorA >= valorB and valorA >= valorC :
+if valorA >= valorB and valorA >= valorC:
   maior = valorA
 
   # Verificar o maior entre B e C
-  if valorB >= valorC :
+  if valorB >= valorC:
     medio = valorB
     menor = valorC
   else :

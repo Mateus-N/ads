@@ -1,8 +1,6 @@
-pessoas = {
-    "Mateus": 22,
-    "Pedro": 18,
-    "Adrielly": 21
-}
+def soma(valorA, valorB):
+    return valorA + valorB
 
-for nome, idade in pessoas.items():
-    print(f'Nome: {nome}, idade: {idade}')
+
+total = soma(2, 3) + 5
+print(total)

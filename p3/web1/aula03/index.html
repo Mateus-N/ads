@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <title>Form</title>
+</head>
+<body>
+  <div class="container mt-3">
+    <h1>Cadastro</h1>
+    <form class="bg-secondary-subtle container px-3 py-1">
+      <div class="row">
+        <div class="mb-3 col-4 row-1">
+          <label for="emailInput" class="from-label mt-3">Email</label>
+          <input type="email" class="form-control" id="emailInput" name="emailInput" placeholder="email@email.com">
+        </div>
+        <div class="mb-3 col-4 row 1">
+          <label for="nomeInput" class="from-label mt-3">Nome</label>
+          <input type="text" class="form-control" id="nomeInput" name="nomeInput" placeholder="José Edmundo">
+        </div>
+        <div class="mb-3 col-4">
+          <label for="sobrenomeInput" class="from-label mt-3">Sobrenome</label>
+          <input type="text" class="form-control" id="sobrenomeInput" name="sobrenomeInput" placeholder="Da Silva Sauro">
+        </div>
+      </div>
+      <div class="row">
+        <div class="mb-3 col-4 row-1">
+          <label for="senhaInput" class="from-label mt-3">Senha</label>
+          <input type="password" class="form-control" id="senhaInput" name="senhaInput" placeholder="***************">
+        </div>
+        <div class="mb-3 col-4 row 1">
+          <label for="repitSenhaInput" class="from-label mt-3">Repita a senha</label>
+          <input type="password" class="form-control" id="repitSenhaInput" name="repitSenhaInput" placeholder="***************">
+        </div>
+        <div class="mb-3 col-4">
+          <label for="telInput" class="from-label mt-3">Telefone</label>
+          <input type="text" class="form-control" id="telInput" name="telInput" placeholder="(00) 9 1234-5678">
+        </div>
+      </div>
+      <button class="btn btn-primary m-3 flex-end">Enviar</button>
+    </form>
+  </div>
+  <script src="bootstrap.min.js"></script>
+</body>
+</html>
