@@ -1,8 +1,3 @@
-# Faça um algoritmo onde vc vai receber do teclado 25 números e colocalos em uma matriz 5x5
-# Crie uma função que percorre a matriz validando a seguinte informação
-# Não podem haver numeros iguais na mesma linha ou coluna
-# caso existam retorna true, caso contrário false
-# Ao final imprima a matriz no formato 5x5 e exiba o retorno da função
 def temNumerosNaMesmaLinhaOuColuna(matriz):
     for i in range(len(matriz)):
         for j in range(len(matriz)):
