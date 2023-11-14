@@ -7,23 +7,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css">
+  <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
   <title>Items</title>
 </head>
 <body>
   <div class="container">
-    <h1>Alunos cadastrados</h1>
+    <header class="cabecalho">
+      <h1 class="title">Alunos cadastrados</h1>
+      <form action="formulario" method="get">
+        <input type="submit" value="Adicionar novo aluno">
+      </form>
+    </header>
     <div class="alunos">
       <% 
-        Turma turma = new Turma();
-        List<Aluno> alunos = turma.getAlunos();
+        List<Aluno> alunos = Turma.getAlunos();
         for (Aluno aluno: alunos) { 
       %>
         <div class="card__aluno">
-          <p><strong>Nome:</strong> <%= aluno.nome %></p>
-          <p><strong>Email:</strong> <%= aluno.email %></p>
-          <p><strong>Idade:</strong> <%= aluno.idade %></p>
-          <p><strong>Media:</strong> <%= aluno.media %></p>
+          <p><strong>Nome:</strong> <%= aluno.getNome() %></p>
+          <p><strong>Email:</strong> <%= aluno.getEmail() %></p>
+          <p><strong>Idade:</strong> <%= aluno.getIdade() %></p>
+          <p><strong>Media:</strong> <%= aluno.getMedia() %></p>
         </div>
       <% } %>
     </div>

@@ -7,6 +7,7 @@
   margin: 0;
   font-family: 'Inter', sans-serif;
   color: #FFF;
+  transition: all ease 0.2s;
 }
 
 body {
@@ -16,16 +17,35 @@ body {
   padding: 24px 72px;
 }
 
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px;
+}
+
+.cabecalho .title {
+  font-size: 48px;
+}
+
+.cabecalho form input {
+  background-color: #222222;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #000;
+}
+
+.cabecalho form input:hover {
+  opacity: 0.8;
+}
+
 .container {
   background-color: transparent;
   width: 100%;
   border-radius: 20px 0;
   padding: 24px;
-}
-
-h1 {
-  margin-bottom: 24px;
-  text-align: center;
 }
 
 .alunos {
@@ -43,4 +63,5 @@ h1 {
   flex-direction: column;
   gap: 12px;
   width: 30%;
+  box-shadow: 0 0 10px #000;
 }
