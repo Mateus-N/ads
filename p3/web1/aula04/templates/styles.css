@@ -12,7 +12,7 @@ body{
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    background: url("../images/background-image.png") no-repeat;
+    background: url("background-image.png") no-repeat;
     background-size: cover;
     position: relative;
     font-family: var(--InriaSans);
