@@ -1,1 +1,0 @@
-<p>Paragrafo escrito no arquivo secundario</p>
